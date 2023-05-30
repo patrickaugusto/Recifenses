@@ -26,3 +26,29 @@ p{
     height: 38em;
     margin-left: 100px;
 }
+
+.footer{
+  background: #152F4F;
+  color:white;  
+}
+
+.contato ul{
+  list-style: none;
+}
+
+.contato li {
+  color: white;
+}
+
+.about-company i{
+  font-size: 25px;
+}
+
+.about-company a{
+  color: white;
+  transition: color 2.s;
+}
+
+.about-company a:hover{
+  color: #4180CB;
+}
