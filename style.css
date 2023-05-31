@@ -42,7 +42,8 @@ p{
 }
 
 .conteudo-beneficio{
-  background-color: #152F4F;
+  background-color: #0044ffbe;
+  box-shadow: #0000001c 2px 8px;
   padding: 20px 10px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -51,7 +52,7 @@ p{
 }
 
 .conteudo-beneficio h3{
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -90,7 +91,7 @@ p{
     font-size: 3em;
   }
   .conteudo-beneficio{
-    background-color: #152F4F;
+    background-color: #152f4f3b;
     padding: 20px 10px;
     border-radius: 20px;
     margin-bottom: 20px;
