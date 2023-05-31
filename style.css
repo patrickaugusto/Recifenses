@@ -1,25 +1,62 @@
-header{
-    margin-bottom: 5em;
+.wave-header{
+  min-height: 100vh;
+  width: 100%;
+  background: #fef9f2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 nav img{
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
 }
 
-#conteudo{
+header{
+  margin-bottom: 5em;
+}
+
+#conteudo-header{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 50px;
 }
 
-#conteudo h1{
-    margin-bottom: 25px;
+#conteudo-header h1{
+  font-size: 4em;
+  font-family:'Poppins';
+  text-decoration: overline underline;
+  margin-bottom: 25px;
 }
 
 p{
     text-align: justify;
     color: rgba(0, 0, 0, 0.750);
 }
+
+.conteudo-beneficio{
+  background-color: #152F4F;
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.conteudo-beneficio h3{
+  color: white;
+}
+
+
+
+
 
 .footer{
   background: #152F4F;
@@ -45,4 +82,19 @@ p{
 
 .about-company a:hover{
   color: #4180CB;
+}
+
+
+@media (max-width: 800px){
+  #conteudo-header h1{
+    font-size: 3em;
+  }
+  .conteudo-beneficio{
+    background-color: #152F4F;
+    padding: 20px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
