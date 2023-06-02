@@ -4,10 +4,19 @@
 nav img{
     height: 45px;
     width: 45px;
+    margin-left: 20px;
 }
 
+.active {
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #ff6a00;
+  border-radius: 15px;
+}
+
+
  /*CSS pagina inicio*/
-.wave-header{
+.inicio{
     min-height: 100vh;
     width: 100%;
     background: #0015CC;
@@ -16,111 +25,69 @@ nav img{
     justify-content: center;
     align-items: center;
   }
-  
-  svg{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
  
-  #conteudo-header{
+  #conteudo-inicio{
       margin-left: 5%;
       margin-right: 5%;
   }
   
   .text-primary {
-    color: red;
-    font-size: 4em;
+    font-size: 85px;
     font-family:'Poppins';
     margin-bottom: 25px;
   }
   
-  .laranja{
-    color: #FF6B00;
-  }
-  .branco{
-    color: white;
-  }
+
   
-  .active {
-    padding: 5px 10px;
-    background-color: rgba(0, 0, 0, 0.377);
-    border-radius: 15px;
-  }
-  
-  #conteudo-header p{
-    text-align: justify;
+  #conteudo-inicio p{
     color: rgba(255, 255, 255, 0.986);
     font-size: 25px;
 }
   
 p{
     text-align: justify;
-    font-size: 18px;
 
 }
 
 
 /*CSS pagina sobre*/
+
+.sobre{
+  min-height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #conteudo-sobre{
     margin-left: 5%;
     margin-right: 5%;
 }
 
 
+/*CSS pagina contato*/
+
+.conteudo{
+  min-height: 100vh;
+  width: 100%;
+  background: #0015CC;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo-contato{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.form-label {
+  color: #fff
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .footer{
-    background: #152F4F;
-    color:white;  
-  }
-  
-  .contato ul{
-    list-style: none;
-  }
-  
-  .contato li {
-    color: white;
-  }
-  
-  .about-company i{
-    font-size: 25px;
-  }
-  
-  .about-company a{
-    color: white;
-    transition: color 2.s;
-  }
-  
-  .about-company a:hover{
-    color: #4180CB;
-  }
-  
-  
-  @media (max-width: 800px){
-    #conteudo-header h1{
-      font-size: 3em;
-    }
-    .conteudo-beneficio{
-      background-color: #152f4f3b;
-      padding: 20px 10px;
-      border-radius: 20px;
-      margin-bottom: 20px;
-      margin-left: 20%;
-      margin-right: 20%;
-    }
-  }
