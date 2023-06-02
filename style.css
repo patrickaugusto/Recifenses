@@ -1,101 +1,126 @@
-.wave-header{
-  min-height: 100vh;
-  width: 100%;
-  background: #fef9f2;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
 
-svg{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
+/*CSS Nav*/
 nav img{
     height: 45px;
     width: 45px;
 }
 
-header{
-  margin-bottom: 5em;
+ /*CSS pagina inicio*/
+.wave-header{
+    min-height: 100vh;
+    width: 100%;
+    background: #0015CC;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+ 
+  #conteudo-header{
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+  .text-primary {
+    color: red;
+    font-size: 4em;
+    font-family:'Poppins';
+    margin-bottom: 25px;
+  }
+  
+  .laranja{
+    color: #FF6B00;
+  }
+  .branco{
+    color: white;
+  }
+  
+  .active {
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 15px;
+  }
+  
+  #conteudo-header p{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.986);
+    font-size: 25px;
 }
-
-#conteudo-header{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 50px;
-}
-
-#conteudo-header h1{
-  font-size: 4em;
-  font-family:'Poppins';
-  text-decoration: overline underline;
-  margin-bottom: 25px;
-}
-
+  
 p{
     text-align: justify;
-    color: rgba(0, 0, 0, 0.750);
+    font-size: 18px;
+
 }
 
-.conteudo-beneficio{
-  background-color: #0044ffbe;
-  box-shadow: #0000001c 2px 8px;
-  padding: 20px 10px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
-.conteudo-beneficio h3{
-  color: rgb(255, 255, 255);
+/*CSS pagina sobre*/
+#conteudo-sobre{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
 
 
 
-.footer{
-  background: #152F4F;
-  color:white;  
-}
-
-.contato ul{
-  list-style: none;
-}
-
-.contato li {
-  color: white;
-}
-
-.about-company i{
-  font-size: 25px;
-}
-
-.about-company a{
-  color: white;
-  transition: color 2.s;
-}
-
-.about-company a:hover{
-  color: #4180CB;
-}
 
 
-@media (max-width: 800px){
-  #conteudo-header h1{
-    font-size: 3em;
+
+
+
+
+
+
+
+
+
+
+
+  .footer{
+    background: #152F4F;
+    color:white;  
   }
-  .conteudo-beneficio{
-    background-color: #152f4f3b;
-    padding: 20px 10px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+  
+  .contato ul{
+    list-style: none;
   }
-}
+  
+  .contato li {
+    color: white;
+  }
+  
+  .about-company i{
+    font-size: 25px;
+  }
+  
+  .about-company a{
+    color: white;
+    transition: color 2.s;
+  }
+  
+  .about-company a:hover{
+    color: #4180CB;
+  }
+  
+  
+  @media (max-width: 800px){
+    #conteudo-header h1{
+      font-size: 3em;
+    }
+    .conteudo-beneficio{
+      background-color: #152f4f3b;
+      padding: 20px 10px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
