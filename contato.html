@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
+
 <body>
 
- <!--Cabeçalho com navegação (booststrap)-->
+    <!--Cabeçalho com navegação (booststrap)-->
 
-  <header>
-    <nav class="shadow-sm navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-          aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html" target="_self">Inicio</a>
-              <a class="nav-link" href="sobre.html" target="_self">Sobre</a>
-              <a class="nav-link" href="contato.html" target="_self"><span class="active">Contato</span></a>
-              <a class="nav-link disabled" href="https://github.com/patrickaugusto/SitePI" target="_blank">Prototipo</a>
+    <header>
+        <nav class="shadow-sm navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html" target="_self">Inicio</a>
+                        <a class="nav-link" href="sobre.html" target="_self">Sobre</a>
+                        <span class="active"><a class="nav-link" href="contato.html" target="_self">Contato</a></span>
+                        <a class="nav-link disabled" href="https://github.com/patrickaugusto/SitePI"
+                            target="_blank">Prototipo</a>
+                    </div>
+                </div>
             </div>
-          </div>
-      </div>
-    </nav>
-  </header>
+        </nav>
+    </header>
 
 
-  <!--Conteudo-->
+    <!--Conteudo-->
 
-<section class="conteudo">
-<div id="conteudo-contato" class="row justify-content-between">
-  <div class="col-12 col-lg-6">
-    <form>
-      <div class="row">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label fs-5">Nome:</label>
-          <input type="text" class="form-control" placeholder="Digite o seu nome" aria-label="nome">
-        </div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label fs-5">Email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ex.: jorginho@gmail.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label fs-5">Mensagem:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua mensagem."></textarea>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-12 col-lg-6">
-      <picture>
-          <img src="img/amico.png" class="img-fluid" alt="...">
-      </picture>
-  </div>
-</section>
+    <section class="conteudo">
+        <div id="conteudo-contato" class="row justify-content-between">
+            <div class="col-12 col-lg-6">
+                <form>
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fs-5">Nome:</label>
+                            <input type="text" class="form-control" placeholder="Digite o seu nome" aria-label="nome">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label fs-5">Email:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Ex.: jorginho@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label fs-5">Mensagem:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Digite sua mensagem."></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-lg-6">
+                <picture>
+                    <img src="img/amico.png" class="img-fluid" alt="...">
+                </picture>
+            </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
-  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
