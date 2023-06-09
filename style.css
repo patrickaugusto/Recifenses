@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
 
+*{
+  text-align: justify;
+  font-family: 'Poppins';
+}
+
+
 /*CSS Nav*/
+
 nav img{
-    height: 45px;
-    width: 45px;
     margin-left: 20px;
 }
 
@@ -43,10 +48,10 @@ nav img{
     color: rgba(255, 255, 255, 0.986);
     font-size: 25px;
 }
-  
-p{
-    text-align: justify;
 
+.btn{
+  color: #fff;
+  margin-top: 10px;
 }
 
 
@@ -58,7 +63,6 @@ p{
   background: #ffffff;
   position: relative;
   justify-content: center;
-  align-items: center;
 }
 
 #conteudo-sobre{
@@ -67,24 +71,22 @@ p{
     margin-bottom: 10em;
 }
 
-#carrossel-sobre{
+#tela-sobre{
     background-color: #0015CC;
+    color: #fff;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 300px;
 }
 
-#tela-sobre{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10em;
-}
+
 
 
 /*CSS pagina contato*/
 
 .conteudo{
+  padding-top: 2em;
   min-height: 100vh;
   width: 100%;
   background: #0015CC;
@@ -101,4 +103,28 @@ p{
 
 .form-label {
   color: #fff
+}
+#conteudo-contato .btn{
+  margin-bottom: 5em;
+  background-color: #ff6a00;
+}
+#conteudo-contato img{
+  margin-bottom: 5em;
+}
+
+/*Conteudo pagina app*/
+
+.app{
+  min-height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#conteudo-app{
+    margin-left: 5%;
+    margin-right: 5%;
 }
