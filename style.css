@@ -37,8 +37,6 @@ nav img{
   }
   
   .text-primary {
-    font-size: 85px;
-    font-family:'Poppins';
     margin-bottom: 25px;
   }
   
@@ -70,12 +68,14 @@ nav img{
     margin-right: 5%;
     margin-bottom: 10em;
 }
-
+.azul{
+  background-color: #0015CC;
+}
 #tela-sobre{
-    background-color: #0015CC;
+    
     color: #fff;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 200px;
     padding-bottom: 300px;
 }
